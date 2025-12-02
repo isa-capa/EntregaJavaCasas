@@ -1,0 +1,30 @@
+{
+    "info": {
+    "name": "FacturacionSegundaEntregaCasas",
+    "_postman_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "description": "Colección para probar el servicio de Comprobante",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+    {
+        "name": "Crear Comprobante",
+        "request": {
+        "method": "POST",
+        "header": [
+            { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+            "mode": "raw",
+            "raw": "{\n  \"cliente\": { \"clienteid\": 1 },\n  \"lineas\": [\n    {\n      \"cantidad\": 2,\n      \"producto\": { \"productoid\": 1 }\n    },\n    {\n      \"cantidad\": 1,\n      \"producto\": { \"productoid\": 2 }\n    }\n  ]\n}"
+        },
+        "url": {
+            "raw": "http://localhost:8080/api/comprobantes",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "8080",
+            "path": ["api", "comprobantes"]
+        }
+        }
+    }
+    ]
+}
