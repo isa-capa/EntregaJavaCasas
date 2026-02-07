@@ -31,7 +31,7 @@ El sistema permite:
 
 ## 📁 Estructura del proyecto
 
-```plaintext
+plaintext
 EntregaJavaCasas/
 ├── src/main/java
 │   ├── com/isa/capasysfacturacion/
@@ -53,7 +53,7 @@ EntregaJavaCasas/
 
 
 
----------
+---
 
 
 
@@ -90,7 +90,7 @@ The system allows:
 
 ## 📁 Project Structure
 
-```plaintext
+plaintext
 EntregaJavaCasas/
 ├── src/main/java
 │   ├── com/isa/capasysfacturacion/
@@ -109,3 +109,4 @@ EntregaJavaCasas/
 ├── .gitignore
 ├── pom.xml
 └── README.md
+
