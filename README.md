@@ -27,31 +27,6 @@ El sistema permite:
 | IDE recomendado      | IntelliJ IDEA / VS Code / Eclipse |
 | Control de versiones | Git / GitHub                      |
 
----
-
-## 📁 Estructura del proyecto
-
-plaintext
-EntregaJavaCasas/
-├── src/main/java
-│   ├── com/isa/capasysfacturacion/
-│   │   ├── model/
-│   │   │   ├── Avion.java
-│   │   │   ├── Cliente.java
-│   │   │   ├── Servicio.java
-│   │   │   └── Factura.java
-│   │   ├── service/
-│   │   │   ├── FacturacionService.java
-│   │   │   └── ValidacionService.java
-│   │   └── Main.java
-├── src/test/java
-│   └── com/isa/capasysfacturacion/
-│       └── FacturacionServiceTest.java
-├── .gitignore
-├── pom.xml
-└── README.md
-
-
 
 ---
 
@@ -90,7 +65,7 @@ The system allows:
 
 ## 📁 Project Structure
 
-plaintext
+```plaintext
 EntregaJavaCasas/
 ├── src/main/java
 │   ├── com/isa/capasysfacturacion/
@@ -109,4 +84,5 @@ EntregaJavaCasas/
 ├── .gitignore
 ├── pom.xml
 └── README.md
+
 
